@@ -1,0 +1,21 @@
+{
+    "name": "amirmasoud/magfa",
+    "description": "Notification implementation for magfa",
+    "keywords": ["laravel", "magfa", "sms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AmirMasoud Sheydaei",
+            "email": "amirmasoud.sheydaei@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amirmasoud\\Magfa\\SmsServiceProvider"
+            ]
+        }
+    }
+}
