@@ -1,2 +1,2 @@
-# magafa
-Notification implementation for magfa
+# MAGFA
+Send SMS implementation for magfa in Laravel

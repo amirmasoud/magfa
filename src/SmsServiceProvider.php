@@ -23,6 +23,10 @@ class SmsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton(Sms::class, function ($app) {
+            return new Sms();
+        });
+
+        $this->app->alias(Sms::class, 'Magfa');
     }
 }
