@@ -163,7 +163,7 @@ class Sms
      * @param  string $checkingMessageId checking message id
      * @return \Exception|string
      */
-    public function enqueueSample(string $recipientNumber, string $message, string $udh = '', string $coding = '', string $checkingMessageId = '') {
+    public function send(string $recipientNumber, string $message, string $udh = '', string $coding = '', string $checkingMessageId = '') {
         $client = new Client(); //GuzzleHttp\Client
         $result = $client->get($this->BASE_HTTP_URL .
             "service=enqueue" .
