@@ -6,3 +6,8 @@ Send SMS implementation for magfa in Laravel
 * Add username, password and domain to `.env`
 * Set sender number in `config/magfa.php`
 
+### Example
+
+```php
+\Facades\Magfa::send('09xxxxxxxxx', 'Message...');
+```
