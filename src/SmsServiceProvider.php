@@ -13,7 +13,9 @@ class SmsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__ . '/../config/magfa-sms.php' => config_path('magfa.php')
+        ]);
     }
 
     /**
