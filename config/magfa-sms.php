@@ -1,5 +1,5 @@
-
 <?php
+
 return [
     /*
      |--------------------------------------------------------------------------
@@ -15,4 +15,3 @@ return [
     'password' => env('MAGFA_PASSWORD'),
     'domain'   => env('MAGFA_DOMAIN')
 ];
-
